@@ -197,11 +197,11 @@
     z-index: var(--z-overlay);
 }
 
-body.page-home .header__link[href="./index.html"],
-body.page-about .header__link[href="./about.html"],
-body.page-practice .header__link[href="./practice.html"],
-body.page-blog .header__link[href="./blog.html"],
-body.page-contact .header__link[href="./contact.html"] {
+body.page-home .header__link[href$="index.html"],
+body.page-about .header__link[href$="about.html"],
+body.page-practice .header__link[href$="practice.html"],
+body.page-blog .header__link[href$="blog.html"],
+body.page-contact .header__link[href$="contact.html"] {
     color: var(--orange);
 }
 
